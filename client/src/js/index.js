@@ -23,11 +23,11 @@ if (typeof editor === "undefined") {
   loadSpinner();
 }
 
-
-if ("serviceWorker" in navigator) {             // <= Check if service workers are supported.
-  
-  const workboxSW = new Workbox("/service-worker.js");        
-  workboxSW.register();                                   // <= Register workbox service worker.
+// Check if service workers are supported
+if ("serviceWorker" in navigator) {
+  // register workbox service worker
+  const workboxSW = new Workbox("/service-worker.js");
+  workboxSW.register();
 } else {
   console.error("Service workers are not supported in this browser.");
 }

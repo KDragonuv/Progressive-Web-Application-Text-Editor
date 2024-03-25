@@ -1,12 +1,11 @@
 # Progressive Web Applications (PWA) Text Editor
 
-## Task
+ ## Task
 
-To create a simple text editor that runs in the browser and meets the PWA criteria. The application functions online as well as offline.
+To create a simple text editor that runs in the browser and meets the PWA criteria. The application functions online as well as offline. User Story
 
-## User Story
+## AS A developer
 
-AS A developer
 I WANT to create notes or code snippets with or without an internet connection
 SO THAT I can reliably retrieve them for later use
 
@@ -37,8 +36,8 @@ WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 WHEN I deploy to Render
 THEN I should have proper build scripts for a webpack application
-
-## Deployed website
+  
+## Deployed website 
 
 
 
@@ -46,18 +45,18 @@ THEN I should have proper build scripts for a webpack application
 
 ## Usage & Installation
 
-Users can access the Progressive Web Applications (PWA) Text Editor in the browser. If users would like to install the application to their local machine they can do so by clicking the `Install` button located in the application. 
+users can access the Progressive Web Applications (PWA) Text Editor in the browser.
+ 
+If users would like to install the application to their local machine they can do so by clicking the `Install` button located in the application.
 
-<img src="./assets/jate-install-video.gif"/>
+<img src="./assets/jate-install-video.gif"/> 
 
+## Technologies used 
 
-
-## Technologies used
-  + [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  + [Node.js](https://nodejs.org/en/)
-  + [Express](https://www.npmjs.com/package/express)
-  + [Concurrently](https://www.npmjs.com/package/concurrently)
-  + [idb](https://www.npmjs.com/package/idb)
-  + [Webpack](https://webpack.js.org/)
-  + [Workbox](https://developer.chrome.com/docs/workbox/)
-
++ [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
++ [Node.js](https://nodejs.org/en/) 
++ [Express](https://www.npmjs.com/package/express) 
++ [Concurrently](https://www.npmjs.com/package/concurrently) 
++ [idb](https://www.npmjs.com/package/idb) 
++ [Webpack](https://webpack.js.org/) 
++ [Workbox](https://developer.chrome.com/docs/workbox/)
